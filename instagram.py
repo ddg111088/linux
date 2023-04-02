@@ -30,10 +30,3 @@ name = st.sidebar.text_input("Enter word")
 date = st.sidebar.date_input("Enter start Date ")
 E_date = st.sidebar.date_input("Enter End Date ")
 Tweets_Count = st.sidebar.number_input("Ender Number of Days")
-tweets_list2 = []
-
-for i,tweet in enumerate(sntwitter.TwitterSearchScraper(name since:date until:E_date).get_items()):
-    if i>Tweets_Count:
-        break
-    tweets_list2.append([tweet.date, tweet.id, tweet.content, tweet.user.username])
-st.title(name)
