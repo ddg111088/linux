@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 """
 Created on Sun Apr  2 13:16:44 2023
 @author: HP
